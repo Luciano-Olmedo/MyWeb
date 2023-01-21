@@ -17,7 +17,7 @@ const Projects = () => {
 
 
             </div>
-            <div className='grid grid-cols-3 justify-between container items-center gap-4 mx-auto py-20 bg-blue-400'>
+            <div className='grid grid-cols-3 justify-between container items-center gap-4 mx-auto py-20'>
                 <div className='mx-auto'>
                     <img src={image1} alt="imagen 1" />
                 </div>
