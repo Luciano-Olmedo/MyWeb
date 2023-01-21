@@ -8,7 +8,7 @@ import image6 from '../images/image6.jpg'
 
 const Projects = () => {
     return (
-        <div className='bg-violet-500 text-white py-32'>
+        <div className='bg-violet-500 text-white py-32'id="Projects">
             <h1 className='underline text-4xl text-white text-left m-10 text-bold pb-10'>PROJECTS</h1>
             <div className='container mx-auto text-left justify-between  pb-5 '>
                 <p className='pb-5 mx-auto text-3xl  '>
@@ -17,8 +17,8 @@ const Projects = () => {
 
 
             </div>
-            <div className='grid grid-cols-3 justify-between container items-center gap-4 mx-auto py-20'>
-                <div className='mx-auto  '>
+            <div className='grid grid-cols-3 justify-between container items-center gap-4 mx-auto py-20 bg-blue-400'>
+                <div className='mx-auto'>
                     <img src={image1} alt="imagen 1" />
                 </div>
                 <div className='mx-auto'>

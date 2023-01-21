@@ -4,7 +4,7 @@ import { GiSmartphone } from 'react-icons/gi'
 
 const Contact = () => {
     return (
-        <section className='bg-violet-800 py-32'>
+        <section className='bg-violet-800 py-32'id='Contact'>
             <h1 className='4xl text-bold underline text-white mx-24'>Contact Me</h1>
             <div className="text-left text-white mx-auto md:w-[85%] mb-20 ">
                 <p className='text-3xl  text-white text-left mt-10'>I am a junior programmer who discovered his passion for programming in the time of pandemic.</p>

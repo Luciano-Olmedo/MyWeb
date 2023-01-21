@@ -8,18 +8,16 @@ const Header = () => {
     setToggle(!toggle);
 
   }
-
-
   return (
     <header className='flex justify-between px-5 py-2 bg-violet-800  text-white sticky top-0 '>
-      <a href="/" className="logo text-2xl font-bold">Luciano</a>
+      <a href="#top" className="logo text-2xl font-bold">Luciano</a>
       {/* navegacion estandar  */}
       <nav className=' hidden md:block  '>
         <ul className='flex '>
           <li><a href='#About'>About</a></li>
           <li><a href='#Projects'>Projects</a></li>
           <li><a href='#Contact'>Contact</a></li>
-          <li><a href='#Resume'>Resume</a></li>
+          <li><a href='https://drive.google.com/file/d/1JfjM6dvm7OJodob5rc4EW3BCipd1x9gV/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
       {/* navegacion Mobile */}
@@ -31,7 +29,7 @@ const Header = () => {
           <li><a href='#About'>About</a></li>
           <li><a href='#Projects'>Projects</a></li>
           <li><a href='#Contact'>Contact</a></li>
-          <li><a href='#Resume'>Resume</a></li>
+          <li><a href='https://drive.google.com/file/d/1JfjM6dvm7OJodob5rc4EW3BCipd1x9gV/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
       <button onClick={handleToggle} className="block md:hidden">

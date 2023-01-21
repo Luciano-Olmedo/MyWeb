@@ -3,7 +3,7 @@ import design from '../images/design.jpg'
 
 const About = () => {
     return (
-        <section className='bg-violet-800 text-white py-32 'id="about">
+        <section className='bg-violet-800 text-white py-32 'id="About">
             <div className='container mx-auto grid md:grid-cols-2 items-center justify-between'>
                 <div className="about-info ">
                     <h1 className=' text-5xl font-bold text-white text-center underline   '>
