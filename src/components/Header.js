@@ -29,7 +29,7 @@ const Header = () => {
           <li ><a href='#About'onClick={handleToggle} >About</a></li>
           <li><a href='#Projects'onClick={handleToggle}>Projects</a></li>
           <li><a href='#Contact'onClick={handleToggle}>Contact</a></li>
-          <li><a href='https://drive.google.com/file/d/1JfjM6dvm7OJodob5rc4EW3BCipd1x9gV/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a></li>
+          <li><a href='https://drive.google.com/file/d/1JfjM6dvm7OJodob5rc4EW3BCipd1x9gV/view?usp=sharing' onClick={handleToggle}target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
       <button onClick={handleToggle} className="block md:hidden">
