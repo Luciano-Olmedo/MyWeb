@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav li a{
+    @apply px-4 py-5 text-lg ;
+}
+nav li a:hover{
+    @apply text-violet-500;
+    
+}
+.mobile-nav{
+    @apply block md:hidden fixed right-0 top-10  py-2 w-full duration-500 bg-violet-800 h-full text-center font-bold
+}
+.text-span{
+    @apply text-violet-900;
+}
+
+/* hero */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    
+    
+}
+button{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-size: 20px;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+img{
+    max-width: 100%;
+     height: auto;
+}
