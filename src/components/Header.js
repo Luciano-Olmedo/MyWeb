@@ -3,7 +3,7 @@ import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 const Header = () => {
 
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
     setToggle(!toggle);
 
@@ -26,9 +26,9 @@ const Header = () => {
         : "mobile-nav left-0"
       }>
         <ul className='flex  flex-col'>
-          <li><a href='#About'>About</a></li>
-          <li><a href='#Projects'>Projects</a></li>
-          <li><a href='#Contact'>Contact</a></li>
+          <li ><a href='#About'onClick={handleToggle} >About</a></li>
+          <li><a href='#Projects'onClick={handleToggle}>Projects</a></li>
+          <li><a href='#Contact'onClick={handleToggle}>Contact</a></li>
           <li><a href='https://drive.google.com/file/d/1JfjM6dvm7OJodob5rc4EW3BCipd1x9gV/view?usp=sharing' target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
