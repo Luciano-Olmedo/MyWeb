@@ -16,14 +16,11 @@ const Hero = () => {
             <button className='mb-2 border-2 border-blue-700 hover:bg-transparent text-2xl bg-violet-800 text-white rounded-md mt-10 py-3 px-6 text-center'  >See Projects</button>
 
           </div>
-
-
         </div>
         <div className='hero-img  w-[85%] mt-10'>
           <img src={programmer} alt="coding illustration" className='w-[85%] ml-auto rounded-md' />
         </div>
       </div>
-
     </section>
   )
 }

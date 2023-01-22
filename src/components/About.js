@@ -3,8 +3,8 @@ import design from '../images/design.jpg'
 
 const About = () => {
     return (
-        <section className='bg-violet-800 text-white py-32 'id="About">
-            <div className='container mx-auto grid md:grid-cols-2 items-center justify-between'>
+        <section className='bg-violet-800 text-white py-32  mx-auto'id="About">
+            <div className='container mx-auto grid md:grid-cols-2 items-center justify-between w-[85%]'>
                 <div className="about-info ">
                     <h1 className=' text-5xl font-bold text-white text-center underline   '>
                         About Me
@@ -17,8 +17,7 @@ const About = () => {
                 <div className='hero-img w-[85%] mt-10'>
                     <img src={design} alt="coding illustration" className='w-[85%] ml-auto rounded-md' />
                 </div>
-            </div>
-      
+            </div>      
         </section>
     )
 }

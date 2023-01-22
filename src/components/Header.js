@@ -2,11 +2,9 @@ import React, { useState } from 'react'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 
 const Header = () => {
-
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
     setToggle(!toggle);
-
   }
   return (
     <header className='flex justify-between px-5 py-2 bg-violet-800  text-white sticky top-0 '>
@@ -32,13 +30,11 @@ const Header = () => {
           <li><a href='https://drive.google.com/file/d/1JfjM6dvm7OJodob5rc4EW3BCipd1x9gV/view?usp=sharing' onClick={handleToggle}target="_blank" rel="noreferrer">Resume</a></li>
         </ul>
       </nav>
-      <button onClick={handleToggle} className="block md:hidden">
+      <button onClick={handleToggle} className="block md:hidden" >
         {
           toggle ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />
         }
-
       </button>
-
     </header>
   )
 }
